@@ -3,21 +3,25 @@ order: 4
 icon: ph:question-fill
 ---
 
+# 特别鸣谢：该文档出至 MAA 的常见问题，简单修改后的，在此特别感谢 MAA 和 Maafw 的开发者们，赞美~
+
 # 常见问题
 
 ## 软件无法运行/闪退/报错
 
+### MWA和模拟器安装路径不要有中文，否则可能会有问题。
+
 ### 下载/安装问题
 
-- 完整 MAA 软件压缩包命名格式为 "MAA-`版本`-`平台`-`架构`.zip"，其余均为无法单独使用的“零部件”，请仔细阅读。
-  在大部分情况下，您需要使用 x64 架构的 MAA，即您需要下载 `MAA-*-win-x64.zip`，而非 `MAA-*-win-arm64.zip`。
+- 完整 MWA 软件压缩包命名格式为 "MWA-`版本`-`平台`-`架构`.zip"，其余均为无法单独使用的“零部件”，请仔细阅读。
+  在大部分情况下，您需要使用 x64 架构的 MWA，即您需要下载 `MWA-*-win-x64.zip`，而非 `MWA-*-win-arm64.zip`。
 - 若在某次自动更新后无法使用或缺失功能，可能是自动更新出现了问题, 请尝试重新下载并解压完整包后手动迁移 `config` 文件夹。
 
 ### 运行库问题
 
 此处仅列出官方安装方法，我们无法保证第三方整合包的可靠性。
 
-- 请安装 [Visual C++ 可再发行程序包](https://aka.ms/vs/17/release/vc_redist.x64.exe) 和 [.NET 桌面运行时 8](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0#:~:text=%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%96%87%E4%BB%B6-,Windows,-Arm64) 并重新启动计算机后再次运行 MAA。  
+- 请安装 [Visual C++ 可再发行程序包](https://aka.ms/vs/17/release/vc_redist.x64.exe) 和 [.NET 桌面运行时 8](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0#:~:text=%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%96%87%E4%BB%B6-,Windows,-Arm64) 并重新启动计算机后再次运行 MWA。  
   推荐使用 Windows 10 或 11 的用户使用 winget 工具进行安装，只需在终端中运行以下命令。
 
   ```sh
@@ -62,7 +66,7 @@ icon: ph:question-fill
 
 ### 关闭现有 ADB 进程
 
-关闭 MAA 后查找 `任务管理器` - `详细信息` 中有无名称包含 `adb` 的进程，如有，结束它后重试连接。
+关闭 MwA 后查找 `任务管理器` - `详细信息` 中有无名称包含 `adb` 的进程，如有，结束它后重试连接。
 
 ### 正确使用多个 ADB
 
@@ -88,3 +92,5 @@ icon: ph:question-fill
 请使用 浏览器 / IDM / FDM 等下载器下载文件，**不要用 ↑↓ 迅雷！**
 
 若不行请开梯子后再尝试下载
+
+# [使用教程](https://github.com/MAWHA/MWA/blob/main/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B.md)
