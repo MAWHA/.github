@@ -1,8 +1,3 @@
----
-order: 4
-icon: ph:question-fill
----
-
 # 特别鸣谢：该文档出至 MAA 的常见问题，简单修改后的，在此特别感谢 MAA 和 Maafw 的开发者们，赞美~
 
 # 常见问题
