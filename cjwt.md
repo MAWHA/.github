@@ -63,6 +63,12 @@
 
 关闭 MwA 后查找 `任务管理器` - `详细信息` 中有无名称包含 `adb` 的进程，如有，结束它后重试连接。
 
+### 使用picli自动检测mumu的adb发现adb地址不是127.0.0.1的注意！！
+
+如图：![image](https://github.com/user-attachments/assets/be7e8b31-7b3e-4bf9-ac0b-938cff2bd0b9)
+
+"网络桥接模式"和"后台保活"两个设置选项必须是处于关闭状态，否则使用mwa时会有莫名的bug
+
 ### 正确使用多个 ADB
 
 当 ADB 版本不同时，新启动的进程会关闭旧的进程。因此在需要同时运行多个 ADB，如 Android Studio、Alas、手机助手时，请确认它们的版本相同。
